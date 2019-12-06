@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mazeRows {
+    display: flex;
+}
+
+.mazeCells {
+    width: 14px;
+    height: 14px;
+}
+
+#mazeHolder {
+    width: 300px;
+    height: 215px;
+    border: 1px solid black;
+    position: relative;
+    margin: 0 auto;
+    top: 15%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#infoHolder {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+#infoHolder p {
+    margin-left: 15px;
+}
+
+button {
+    width: 200px;
+    height: 60px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 2px;
+}
+
+.hideContent {
+    display: none;
+}
+
+#buttonHolder {
+    margin-top: 2%;
+}
+
+#buttonHolder,
+#h1Holder,
+#imageHolder {
+    display: flex;
+    justify-content: center;
+}
