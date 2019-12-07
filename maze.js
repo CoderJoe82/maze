@@ -35,6 +35,8 @@ createMaze = () => {
 }
 createMaze();
 
+
+//Credit goes to w3 schools for this function
 function sound(src) {
     this.sound = document.createElement("audio");
     this.sound.src = src;
